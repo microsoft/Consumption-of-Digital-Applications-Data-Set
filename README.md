@@ -1,4 +1,4 @@
-# Consumtion of Digital Applications Data Set
+# Consumption of Digital Applications Data Set
 
 Digital literacy encompasses a broad range of skills and knowledge related to using digital technologies and information in various contexts, including but not limited to computers, smartphones, and the Internet. Digital literacy plays a fundamental role in several social outcomes, including enabling economic opportunity, social inclusion, and participation in civic activities.
 Nonetheless, digital literacy may not be equitably distributed, implying that groups or communities with lower endowments of digital skills may not be able to fully reap the benefits of new technologies.
