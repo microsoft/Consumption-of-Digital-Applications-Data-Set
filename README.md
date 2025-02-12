@@ -1,14 +1,15 @@
-# Project
+# Consumtion of Digital Applications Data Set
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+Digital literacy encompasses a broad range of skills and knowledge related to using digital technologies and information in various contexts, including but not limited to computers, smartphones, and the Internet. Digital literacy plays a fundamental role in several social outcomes, including enabling economic opportunity, social inclusion, and participation in civic activities.
+Nonetheless, digital literacy may not be equitably distributed, implying that groups or communities with lower endowments of digital skills may not be able to fully reap the benefits of new technologies.
 
-As the maintainer of this project, please make a few updates:
+While closing this gap has been elevated to a major policy goal both in the U.S. and internationally, the measurement of digital literacy still largely relies on crude indicators of technology adoption, such as computing ownership and broadband availability, which suffer from limited samples and insufficient measurement of the depth and variety of usage. Eexisting comprehensive surveys are designed to offer yardsticks that characterize adoption across the US population and explore only the most essential features of usage, such as whether a household uses email. Similarly, the Pew Research Center (2023) has collected statistics about samples of broadband and smartphone adopters for many years, and it occasionally conduct surveys of usage by adopters in one-off surveys, but rarely the same in-depth survey twice. Designing interventions to close the digital divide requires a more detailed and comprehensive understanding of persisting differences in how individuals use digital technologies and the underlying factors driving these differences.
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+Our research provides novel data and methodology to measure a proxy of digital literacy--digital usage--for over 28,000 US ZIP codes. These metrics are based on telemetry data collected by Microsoft in 2023 during operating system updates for forty million Windows devices across U.S. households that agreed to share these data, using frontier differential privacy practices.Our data assumes that device usage is a proxy for households laptop and desktop usage. The devices are not part of a business contract. This dataset, the most comprehensive measure of US household computing usage ever assembled, surpasses any existing commercial or government survey in its scope and enables granular measurement of the use of digital applications at a massive scale, which, as we show below, captures a different dimension of digital access than traditional metrics based on computing and network infrastructure.  
+
+We construct two indices reflecting distinct digital usage components: the \emph{Media and Information Composite Index} (MCI) and the \emph{Content Creation and Computation Composite Index} (CCI). The MCI captures usage related to media and information consumption and general computing usage across various applications, such as word processing, spreadsheets, and presentations. The CCI captures usage about content creation and specialized digital applications, like image manipulation (e.g., Photoshop) or software developer tools.
+
+We examine variance in digital usage across and within U.S. ZIP codes and counties and provide descriptive evidence on correlates of variation in digital literacy beyond local IT infrastructure availability, focusing on local income and education levels. We find evidence of significant variation in digital usage across and within U.S. regions. These differences document an urban-rural divide, but we also show the existence of substantial disparities in usage in both indices, even \emph{within} narrowly defined Metropolitan Statistical Areas. Finally, we show that these differences are correlated with differences in income and education, even once we consider local differences in the availability of essential IT infrastructure.
 
 ## Contributing
 
