@@ -11,6 +11,15 @@ We construct two indices reflecting distinct digital usage components: the \emph
 
 We examine variance in digital usage across and within U.S. ZIP codes and counties and provide descriptive evidence on correlates of variation in digital literacy beyond local IT infrastructure availability, focusing on local income and education levels. We find evidence of significant variation in digital usage across and within U.S. regions. These differences document an urban-rural divide, but we also show the existence of substantial disparities in usage in both indices, even \emph{within} narrowly defined Metropolitan Statistical Areas. Finally, we show that these differences are correlated with differences in income and education, even once we consider local differences in the availability of essential IT infrastructure.
 
+# Data Table
+
+
+Here are links to differential privacy information:
+- SmartNoise: https://smartnoise.org, https://github.com/opendifferentialprivacy/smartnoise-core-python, https://github.com/opendifferentialprivacy/smartnoise-sdk 
+- OpenDP: https://projects.iq.harvard.edu/opendp and https://github.com/opendifferentialprivacy
+- OpenDP.Accuracy: Pitfalls and edge cases. https://github.com/opendifferentialprivacy/smartnoise-samples/blob/master/analysis/accuracy_pitfalls.ipynb
+- OpenDP.Privacy preserving statistical release. https://github.com/opendifferentialprivacy/smartnoise-samples/blob/master/analysis/tutorial_mental_health_in_tech_survey.ipynb 
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
