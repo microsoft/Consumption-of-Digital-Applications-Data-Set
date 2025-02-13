@@ -9,15 +9,20 @@ Our research provides novel data and methodology to measure a proxy of digital l
 
 We construct two indices reflecting distinct digital usage components: the **Media and Information Composite Index** (MCI) and the **Content Creation and Computation Composite Index** (CCI). The MCI captures usage related to media and information consumption and general computing usage across various applications, such as word processing, spreadsheets, and presentations. The CCI captures usage about content creation and specialized digital applications, like image manipulation (e.g., Photoshop) or software developer tools.
 
+
 ## Measuring Digital Literacy
 An ideal index for measuring variance in the usage of computing devices across the US population should be constructed generally. It allows the index to be regularly updated and regionally disaggregated and lends itself to longitudinal analysis. A pragmatic index should, however, also find a point that trades off details with satisfying objectives for maintaining anonymity. 
 
 To achieve these conflicting objectives, we construct a measure of usage at the device level and then build weighted averages of these usage measures at the ZIP code level. By aggregating the data through privacy-enhancing technologies, our approach prevents the revelation of any private information.
 
- We compute, for each device, device-level indices, which are weighted sums of the time spent (in minute, during one month) in the applications corresponding to the two types of digital literacy defined in [1](https://standards.ieee.org/ieee/3527.1/7589/). The weights used in each sum are computed via principal component analysis (PCA). PCA, which has been previously leveraged in the index construction literature, is a natural choice for computing index weights as it assumes that information is captured in the variance of the data features. 
- We publish the average of the device-level indices at a ZIP code level. 
- 
- Please refer to [this paper](https://www.nber.org/system/files/working_papers/w32932/w32932.pdf) for a detailed view on index construction and interpretation. 
+ We compute, for each device, device-level indices, which are weighted sums of the time spent (in minute, during one month) in the applications corresponding to the two types of digital literacy defined in [1](https://standards.ieee.org/ieee/3527.1/7589/). The weights used in each sum are computed via principal component analysis (PCA). PCA, which has been previously leveraged in the index construction literature, is a natural choice for computing index weights as it assumes that information is captured in the variance of the data features. We publish the average of the device-level indices at a ZIP code level. 
+
+The computations of MCI and CCI are done via a privacy-preserving technique called differential privacy. To compute the differentially private MCI and CCI, we perform a two-step computation.
+We start by computing, the differentially private weights of the first component of principal component analysis done at the national level data. After we obtain the dp-weights, we utilize additive noise mechanisms to compute MCI and CCI. 
+All Laplace mechanism and PCA implementations utilized in this project were developed by the OpenDP library. The OpenDP library includes a comprehensive set of differential privacy mechanisms, algorithms, and validator. The library is open source,
+and is maintained and vetted by OpenDP community.
+
+Please refer to [this paper](https://www.nber.org/system/files/working_papers/w32932/w32932.pdf) for a detailed view on index construction and interpretation. 
  
 # Data Table
 
