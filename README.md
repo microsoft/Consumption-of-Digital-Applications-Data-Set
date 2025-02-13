@@ -19,8 +19,7 @@ To achieve these conflicting objectives, we construct a measure of usage at the 
 
 The computations of MCI and CCI are done via a privacy-preserving technique called differential privacy. To compute the differentially private MCI and CCI, we perform a two-step computation.
 We start by computing, the differentially private weights of the first component of principal component analysis done at the national level data. After we obtain the dp-weights, we utilize additive noise mechanisms to compute MCI and CCI. 
-All Laplace mechanism and PCA implementations utilized in this project were developed by the OpenDP library. The OpenDP library includes a comprehensive set of differential privacy mechanisms, algorithms, and validator. The library is open source,
-and is maintained and vetted by OpenDP community.
+All Laplace mechanism and PCA implementations utilized in this project were developed by the [OpenDP library](https://github.com/opendp/opendp). The OpenDP library includes a comprehensive set of differential privacy mechanisms, algorithms, and validator. The library is open source, and is maintained and vetted by OpenDP community.
 
 Please refer to [this paper](https://www.nber.org/system/files/working_papers/w32932/w32932.pdf) for a detailed view on index construction and interpretation. 
  
